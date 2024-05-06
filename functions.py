@@ -12,7 +12,7 @@ def create_document(document):
         result = collection.insert(document)
         return result
     except:
-        print("Error. Either wrond ID or ID is currently being used.")
+        print("Error. Either wrong ID or ID is currently being used.")
 
 
 # Reads through the database and collection looking for a document(data)
